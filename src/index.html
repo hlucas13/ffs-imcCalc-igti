@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo de IMC</title>
+
+    <link rel="stylesheet" href="../public/styles/reset.css" />
+    <link rel="stylesheet" href="../public/styles/main.css" />
+  </head>
+  <body>
+    <div>
+      <img src="../public/images/calculator.png" alt="Calculator" />
+      <h1>Cálculo de IMC</h1>
+    </div>
+    <div>
+      <form name="imcForm" action="#">
+        <label>Introduza sua altura*:</label>
+        <p>
+          <input
+            type="text"
+            id="inputHeight"
+            placeholder="1.60"
+            required
+            maxlength="4"
+          />
+        </p>
+        <label>Introduza seu peso*:</label>
+        <p>
+          <input
+            type="text"
+            id="inputWeight"
+            placeholder="62.5"
+            required
+            maxlength="4"
+          />
+        </p>
+        <p>
+          *Utilizar "." (ponto) como separador decimal.
+        </p>
+        <label>Sexo:</label>
+        <p>
+          <input type="radio" id="inputSex" name="sexo" checked />
+          Masculino
+          <input type="radio" id="inputSex" name="sexo" />
+          Feminino
+        </p>
+        <p>
+          <input type="submit" id="buttonCalc" value="Calcular" />
+          <input type="reset" id="buttonClear" value="Limpar" />
+        </p>
+      </form>
+    </div>
+    <script src="../public/scripts/imcCalc.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  background-color: #d2fff9;
+  font-family: 'Play', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+
+  line-height: 30px;
+}
+
+img {
+  max-width: 50px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#button {
+  font-size: 1rem;
+  align-items: center;
+  font-weight: bold;
+}
